@@ -1,0 +1,15 @@
+1. Server
+    - src: Contiene todos los recursos como controladores y rutas del servidor
+        * controllers: Todo tipo de consultas que son realizadas a la base de datos
+        * routes: rutas del proyecto que devuelven como respuestas lo que se les indique
+
+2. Base de datos
+    - script: Donde se creó la base datos, esta fue creada en phpmyadmin
+
+3. Client
+    - src: Contiene todo lo relacionado con la aplicacion como componentes, modelos y servicios
+        * Componentes: Todo tipo de "objetos" de html que pueden ser llamados en las paginas para
+                        ser renderizados
+        * Modelos: Tipos de datos que me son utiles para guardar informacion
+        * Servicios: Rutas que se envian al servidor para realizar peticiones y que devuelva
+                     algún tipo de respuesta en específico
